@@ -35,7 +35,7 @@ export type Task = {
         id: 3,
         title: "First Blog Post",
         description: "Blog that serves a guide to: sustainable corporate gifts in Singapore/eco friendly corporate gifts in Singapore",
-        date: "2025-04-03T00:00:00Z",
+        date: "2025-04-04T00:00:00Z",
         colorIndex: 2,
         //location: "Conference Room A",
         tags: ["Blog"],

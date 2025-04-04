@@ -9,7 +9,16 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 // Sample blog data - replace with your actual data source
 const blogPosts = [
-  
+  {
+    id: 1,
+    title: "Sustainable Corporate Gifts in Singapore",
+    excerpt: "Eco-Friendly Options for Every Business",
+    imageUrl: "/blog-one.png?height=200&width=400",
+    date: "Apr 4",
+    readTime: "8 min read",
+    url: "/blog-one",
+    status: "pending",
+  }
   
 ]
 
