@@ -14,7 +14,7 @@ export default function BlogOnePage() {
       <div className="flex justify-end mb-6">
         <Button asChild variant="outline">
           <a
-            href="https://docs.google.com/document/d/1tshpzZv8xCJQu024bsjYULWWjobpU1McrSHDjn3WRM8/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1IGvrUnas6l-QtOJdc_JsNmDPqAeSIH5RDKBMT3l_0ck/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
