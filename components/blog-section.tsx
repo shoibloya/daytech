@@ -18,7 +18,17 @@ const blogPosts = [
     readTime: "8 min read",
     url: "/blog-one",
     status: "pending",
-  }
+  },
+  {
+    id: 1,
+    title: "Unique and Practical Door Gifts for Corporate Events in Singapore",
+    excerpt: "Blog for approval",
+    imageUrl: "/blog-two.png?height=200&width=400",
+    date: "Apr 22",
+    readTime: "8 min read",
+    url: "https://docs.google.com/document/d/18hCI8eOsRCAmkvKx3kAaHQZMfidkXgh43qghlhi5uXE/edit?tab=t.0#heading=h.292tq23i7km",
+    status: "pending",
+  },
   
 ]
 
