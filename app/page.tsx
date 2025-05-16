@@ -81,27 +81,7 @@ export default function Dashboard() {
           ))}
         </motion.div>
 
-        {/* Task List and Agents Section */}
-        <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          animate="visible"
-          className="grid grid-cols-1 gap-6 lg:grid-cols-2"
-        >
-          {/* Task List */}
-          <motion.div variants={itemVariants}>
-            <TaskCalendar />
-          </motion.div>
-
-          {/* Agents List */}
-          <motion.div variants={itemVariants}>
-            <Card className="overflow-hidden border bg-card/50 shadow-md backdrop-blur-sm">
-              <CardContent className="p-4">
-                <AgentsList />
-              </CardContent>
-            </Card>
-          </motion.div>
-        </motion.div>
+       
 
         {/* Blog Section - Added above SEO Metrics */}
         <motion.div variants={containerVariants} initial="hidden" animate="visible">
