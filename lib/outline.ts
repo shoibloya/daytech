@@ -55,28 +55,30 @@ export const outlines: Outline[] = [
     ],
   },
 
-  /* ──────────────────── 2. Employee Onboarding Gift Kits ────────────────── */
+  /* ───────────── 2. Bulk Trade Show Giveaways (replaces onboarding kits) ─────────── */
   {
     slug: "blog-two-outline",
     date: "May 28, 2025",
-    seoTitle: "SEO Keyword Plan: Employee Onboarding Gift Kits in Singapore",
+    seoTitle: "SEO Keyword Plan: Bulk Trade Show Giveaways Singapore",
     seoDescription:
-      "A guide for HR professionals and office managers curating impactful welcome packages for new hires, with local sourcing and engagement in mind.",
+      "A guide for event marketing teams and exhibitors sourcing cost-effective, brand-aligned trade show giveaways in bulk across Singapore.",
     articleTitle:
-      "Ultimate Guide to Employee Onboarding Kits in Singapore (What to Include and Why)",
+      "Bulk Trade Show Giveaways in Singapore: Ideas, Logistics & Branding Tips",
     gapHeading: "Content Gap",
     gapBody:
-      "Existing onboarding-kit articles are often overseas-focused or generic product pitches; few consider Singapore’s cultural nuances, hybrid-work realities, or scale challenges faced by large enterprises.",
+      "Current search results prioritise e-commerce or logistics solutions (e.g. Boxaroo’s event merchandise service) but offer little educational guidance. Few resources discuss which swag works best for trade events or how to package items for branding impact. Users must browse individual product listings without a consolidated advisory overview.",
     fillGapHeading: "How to Fill the Gap",
     fillGapBody:
-      "DayTech Gifts can publish a strategic guide emphasising first-impression impact, curated categories (essentials, tech accessories, local touches), and operational tips for scaling and personalising kits—reinforcing DayTech’s one-stop capability for sourcing, customising, and fulfilment.",
+      "DayTech Gifts can publish a detailed “trade show swag 101” focused on bulk orders, describing trending freebies (eco-friendly swag, tech gadgets, custom apparel) and advising on design, packaging, quantity planning, lead times, and alignment with marketing goals. Emphasising DayTech’s customisation strengths will satisfy search intent and position the brand as a trusted partner.",
     keywords: [
-      { keyword: "employee onboarding gift kits Singapore", intent: "Transactional" },
-      { keyword: "new hire welcome kit ideas SG", intent: "Informational" },
-      { keyword: "customized onboarding packages Singapore", intent: "Informational" },
-      { keyword: "corporate welcome gift sets for employees", intent: "Transactional" },
-      { keyword: "DayTech employee welcome kits", intent: "Transactional" },
-      { keyword: "onboarding gift ideas for remote employees", intent: "Informational" },
+      { keyword: "bulk trade show giveaways Singapore", intent: "Transactional" },
+      { keyword: "custom trade show swag Singapore", intent: "Transactional" },
+      { keyword: "eco-friendly promotional items Singapore", intent: "Informational" },
+      { keyword: "bulk event merchandise Singapore", intent: "Transactional" },
+      { keyword: "custom logo giveaways Singapore", intent: "Transactional" },
+      { keyword: "trade show swag ideas Singapore", intent: "Informational" },
+      { keyword: "conference giveaways Singapore", intent: "Informational" },
+      { keyword: "branded merchandise Singapore", intent: "Informational" },
     ],
   },
 
@@ -106,29 +108,29 @@ export const outlines: Outline[] = [
     ],
   },
 
-  /* ──────────────── 4. Premium Gifts for VIP Clients ────────────────────── */
+  /* ─── 4. Pop-Up Booth Guide (replaces premium VIP corporate gifts) ──────── */
   {
     slug: "blog-four-outline",
     date: "June 11, 2025",
     seoTitle:
-      "SEO Keyword Plan: Premium Corporate Gifts for VIP Clients in Singapore",
+      "SEO Keyword Plan: Guide to Setting Up a Successful Pop-Up Booth at Singapore Expos",
     seoDescription:
-      "A guide for marketing and BD teams seeking luxurious, high-impact gifts to impress and retain top-tier clients and C-suite decision-makers.",
+      "A comprehensive guide for small businesses creating engaging, regulation-compliant pop-up booths at Singapore expos.",
     articleTitle:
-      "Elevating Business Relations with VIP Corporate Gifts in Singapore",
+      "How to Set Up a Successful Pop-Up Booth at Singapore Expos: Design, Compliance & Engagement",
     gapHeading: "Content Gap",
     gapBody:
-      "Premium-gift search results are dominated by static catalogues; few explain gifting strategy, exclusivity, subtle branding, or matching gifts to client profiles.",
+      "While general booth-setup advice exists, resources rarely address Singapore-specific regulations, cultural preferences, and logistical nuances that small vendors face.",
     fillGapHeading: "How to Fill the Gap",
     fillGapBody:
-      "DayTech can publish a premium-focused article outlining executive tech gadgets, leather goods, bespoke sets, and minimalist branded items, plus decision tips for matching gifts to VIP profiles—positioning DayTech as the trusted high-end gifting partner.",
+      "DayTech’s blog can offer a hyper-local, practical roadmap—covering booth design, product display, customer engagement tactics, budgeting, and compliance with Singapore event regulations—to help vendors maximise attention and sales at expos such as Comic-Con or niche trade shows.",
     keywords: [
-      { keyword: "premium corporate gifts Singapore", intent: "Transactional" },
-      { keyword: "VIP client gift ideas SG", intent: "Informational" },
-      { keyword: "luxury corporate gifting Singapore", intent: "Informational" },
-      { keyword: "executive gifts for C-suite clients", intent: "Informational" },
-      { keyword: "DayTech premium business gift sets", intent: "Transactional" },
-      { keyword: "high-end branded corporate gifts", intent: "Informational" },
+      { keyword: "pop-up booth Singapore expo", intent: "Informational" },
+      { keyword: "Singapore expo booth setup", intent: "Informational" },
+      { keyword: "small business pop-up booth Singapore", intent: "Informational" },
+      { keyword: "expo booth design Singapore", intent: "Informational" },
+      { keyword: "event booth regulations Singapore", intent: "Informational" },
+      { keyword: "trade show booth tips Singapore", intent: "Informational" },
     ],
   },
 ];
