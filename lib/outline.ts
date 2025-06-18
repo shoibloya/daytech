@@ -29,108 +29,123 @@ export interface Outline {
 /* -------------------------------------------------------------------------- */
 
 export const outlines: Outline[] = [
-  /* ───────────── 1. Tech-Gadget Employee Gifts (replaces cybersecurity) ─────────── */
-  {
-    slug: "blog-one-outline",
-    date: "May 21, 2025",
-    seoTitle:
-      "SEO Keyword Plan: Tech Gadget Corporate Gifts for Employees in Singapore",
-    seoDescription:
-      "A guide for HR and IT teams looking to delight staff with practical, modern tech gifts that boost engagement and productivity.",
-    articleTitle:
-      "Top Tech Gadget Gifts for Your Employees (Singapore Edition)",
-    gapHeading: "Content Gap",
-    gapBody:
-      "Most lists of employee tech gifts are generic or US-centric, focusing on flashy gadgets without explaining their workplace value. Singapore-based buyers find little local sourcing advice or context on how gifts like wireless chargers or USB hubs support productivity or hybrid-work readiness. Few resources connect gifting choices to company culture or employee engagement goals.",
-    fillGapHeading: "How to Fill the Gap",
-    fillGapBody:
-      "DayTech Gifts can publish an engaging listicle—“Top Tech Gadget Gifts for Your Employees (Singapore Edition)”—that introduces 8-10 practical, locally available tech items (e.g. wireless chargers, Bluetooth trackers, USB-C hubs). Each idea should explain its productivity or well-being benefit and suggest moments for distribution (work-from-home stipend, project milestone). Local pricing ranges, sourcing tips, and customisation options will make the piece immediately actionable and position DayTech as the go-to partner for tech-forward corporate gifting.",
-    keywords: [
-      { keyword: "tech gadget corporate gifts Singapore", intent: "Informational" },
-      { keyword: "employee tech swag Singapore", intent: "Informational" },
-      { keyword: "wireless charger corporate gift Singapore", intent: "Transactional" },
-      { keyword: "USB hub employee gift Singapore", intent: "Transactional" },
-      { keyword: "DayTech tech gadget gifts", intent: "Transactional" },
-      { keyword: "best tech corporate gifts SG", intent: "Informational" },
-    ],
-  },
+  /* ──────── 19. Digital Gift Bundles for Events ──────── */
+{
+  slug: "digital-gift-bundles-singapore-outline",
+  date: "June 18, 2025",
+  seoTitle: "SEO Keyword Plan: Digital Gift Bundles for Virtual Events in Singapore",
+  seoDescription:
+    "A local-first guide for Singapore event planners building digital gift bundles with Grab vouchers, e-gifts, and optional physical items for virtual events.",
+  articleTitle:
+    "How to Create Digital Gift Bundles for Virtual Events in Singapore: Smart Localised Options for Remote Delight",
+  gapHeading: "Content Gap",
+  gapBody: `Existing resources suggest e-vouchers or snack boxes but miss key localisation needs for Singapore:
 
-  /* ───────────── 2. Bulk Trade Show Giveaways (replaces onboarding kits) ─────────── */
-  {
-    slug: "blog-two-outline",
-    date: "May 28, 2025",
-    seoTitle: "SEO Keyword Plan: Bulk Trade Show Giveaways Singapore",
-    seoDescription:
-      "A guide for event marketing teams and exhibitors sourcing cost-effective, brand-aligned trade show giveaways in bulk across Singapore.",
-    articleTitle:
-      "Bulk Trade Show Giveaways in Singapore: Ideas, Logistics & Branding Tips",
-    gapHeading: "Content Gap",
-    gapBody:
-      "Current search results prioritise e-commerce or logistics solutions (e.g. Boxaroo’s event merchandise service) but offer little educational guidance. Few resources discuss which swag works best for trade events or how to package items for branding impact. Users must browse individual product listings without a consolidated advisory overview.",
-    fillGapHeading: "How to Fill the Gap",
-    fillGapBody:
-      "DayTech Gifts can publish a detailed “trade show swag 101” focused on bulk orders, describing trending freebies (eco-friendly swag, tech gadgets, custom apparel) and advising on design, packaging, quantity planning, lead times, and alignment with marketing goals. Emphasising DayTech’s customisation strengths will satisfy search intent and position the brand as a trusted partner.",
-    keywords: [
-      { keyword: "bulk trade show giveaways Singapore", intent: "Transactional" },
-      { keyword: "custom trade show swag Singapore", intent: "Transactional" },
-      { keyword: "eco-friendly promotional items Singapore", intent: "Informational" },
-      { keyword: "bulk event merchandise Singapore", intent: "Transactional" },
-      { keyword: "custom logo giveaways Singapore", intent: "Transactional" },
-      { keyword: "trade show swag ideas Singapore", intent: "Informational" },
-      { keyword: "conference giveaways Singapore", intent: "Informational" },
-      { keyword: "branded merchandise Singapore", intent: "Informational" },
-    ],
-  },
+- Platform relevance: Grab vouchers vs. Uber Eats
+- Bulk redemption: Group discount options aren't addressed
+- Legal/tax issues: No mention of PDPA or taxable treatment of e-gifts
 
-  /* ───────────────── 3. Bulk Corporate Gifts for Large Orders ───────────── */
-  {
-    slug: "blog-three-outline",
-    date: "June 4, 2025",
-    seoTitle:
-      "SEO Keyword Plan: Bulk Corporate Gifts Supplier in Singapore for Large Orders",
-    seoDescription:
-      "A guide for procurement teams at large enterprises sourcing high-volume corporate gifts, with tips on vetting vendors and ensuring consistent quality.",
-    articleTitle:
-      "Bulk Corporate Gifting in Singapore: A Practical Guide for Large Enterprises",
-    gapHeading: "Content Gap",
-    gapBody:
-      "Search results focus on product catalogues and overlook procurement pain points: MOQs, lead times, scalable branding, QA, and logistics coordination across multiple locations.",
-    fillGapHeading: "How to Fill the Gap",
-    fillGapBody:
-      "DayTech’s guide should offer a supplier-evaluation checklist, branding-at-scale advice, logistics planning, and showcase DayTech’s in-house fulfilment strengths—transforming a catalogue query into a strategic procurement resource.",
-    keywords: [
-      { keyword: "bulk corporate gifts supplier Singapore", intent: "Transactional" },
-      { keyword: "large quantity corporate gifts SG", intent: "Transactional" },
-      { keyword: "corporate gifting bulk order Singapore", intent: "Informational" },
-      { keyword: "DayTech bulk corporate gift orders", intent: "Transactional" },
-      { keyword: "best vendor for large corporate gifts SG", intent: "Informational" },
-      { keyword: "how to manage high-volume corporate gifts", intent: "Informational" },
-    ],
-  },
+Most top-ranking sites (e.g., pcnametag.com, bizzabo.com, snackmagic.com) are US-based, leaving SG planners to improvise.`,
+  fillGapHeading: "How to Fill the Gap",
+  fillGapBody: `Offer a guide to building digital-first event gift bundles that:
 
-  /* ─── 4. Pop-Up Booth Guide (replaces premium VIP corporate gifts) ──────── */
-  {
-    slug: "blog-four-outline",
-    date: "June 11, 2025",
-    seoTitle:
-      "SEO Keyword Plan: Guide to Setting Up a Successful Pop-Up Booth at Singapore Expos",
-    seoDescription:
-      "A comprehensive guide for small businesses creating engaging, regulation-compliant pop-up booths at Singapore expos.",
-    articleTitle:
-      "How to Set Up a Successful Pop-Up Booth at Singapore Expos: Design, Compliance & Engagement",
-    gapHeading: "Content Gap",
-    gapBody:
-      "While general booth-setup advice exists, resources rarely address Singapore-specific regulations, cultural preferences, and logistical nuances that small vendors face.",
-    fillGapHeading: "How to Fill the Gap",
-    fillGapBody:
-      "DayTech’s blog can offer a hyper-local, practical roadmap—covering booth design, product display, customer engagement tactics, budgeting, and compliance with Singapore event regulations—to help vendors maximise attention and sales at expos such as Comic-Con or niche trade shows.",
-    keywords: [
-      { keyword: "pop-up booth Singapore expo", intent: "Informational" },
-      { keyword: "Singapore expo booth setup", intent: "Informational" },
-      { keyword: "small business pop-up booth Singapore", intent: "Informational" },
-      { keyword: "expo booth design Singapore", intent: "Informational" },
-      { keyword: "event booth regulations Singapore", intent: "Informational" },
-      { keyword: "trade show booth tips Singapore", intent: "Informational" },
-    ],
-  },
+- Combine instant e-gifts (e.g. Grab, FoodPanda, Lazada) with optional physical items (e.g. custom mugs, plants, care packs)
+- Include a PDPA-compliant data-collection flow for remote gift claiming
+- Provide tips on tax-deductibility, local fulfilment vendors, and ways to reuse leftover credits for future events
+- Showcase a DayTech bundle-builder tool for Singapore planners with template sets and automated logistics tracking`,
+  keywords: [
+    { keyword: "digital gift bundles for virtual events singapore", intent: "Transactional" },
+  ],
+},
+
+/* ──────── 20. Hybrid Event Gift Packs Singapore ──────── */
+{
+  slug: "hybrid-event-gift-packs-singapore-outline",
+  date: "June 25, 2025",
+  seoTitle: "SEO Keyword Plan: Hybrid Event Attendee Gift Pack Ideas in Singapore",
+  seoDescription:
+    "Gift pack ideas for hybrid events in Singapore, including halal snacks, SG-compliant shipping, and mix-and-match modules for in-person and remote guests.",
+  articleTitle:
+    "Hybrid Event Gift Packs in Singapore: Local-Friendly Ideas for Both Onsite and Virtual Attendees",
+  gapHeading: "Content Gap",
+  gapBody: `Most available content is US-centric. Singapore-specific concerns are rarely addressed:
+
+- Local courier costs, SY45 postal size constraints
+- Halal snack or wellness item availability
+- Customs and packaging climate constraints (e.g. chocolate in July)
+
+Key vendor sites (e.g. pcnametag.com, snackmagic.com, shangri-la.com) offer little regional guidance.`,
+  fillGapHeading: "How to Fill the Gap",
+  fillGapBody: `Provide practical hybrid gift pack options that:
+
+- Mix tech, F&B, and wellbeing items for both remote and in-person guests
+- Respect Singapore’s shipping, food, and customs constraints
+- Highlight DayTech’s cold-chain logistics partners for chocolate/wellness items
+- Feature modular kits that comply with SY45 postal guidelines and allow planners to mix modules (e.g. hydration, snacks, aromatherapy)`,
+  keywords: [
+    { keyword: "hybrid event attendee gift pack ideas singapore", intent: "Transactional" },
+  ],
+},
+
+/* ──────── 21. Marathon Race Pack Water Bottles ──────── */
+{
+  slug: "marathon-race-pack-water-bottles-outline",
+  date: "July 2, 2025",
+  seoTitle: "SEO Keyword Plan: Marathon Race Pack Custom Water Bottles in Singapore",
+  seoDescription:
+    "Help race organizers in Singapore select lightweight, fast-turnaround, sponsor-friendly custom water bottles for marathon packs.",
+  articleTitle:
+    "Custom Water Bottles for Marathon Race Packs in Singapore: Selection Tips, Sponsorship Ideas and Fulfilment Planning",
+  gapHeading: "Content Gap",
+  gapBody: `Most search results focus on general “water bottle giveaways” or US trade shows.
+
+Missing:
+- Nozzle-type comparisons (sports cap vs. flip-top)
+- Sponsorship placement mock-ups
+- Courier issues handling thousands of units within short windows
+
+Tradeshowdisplays.com.sg and similar directories dominate without real insights.`,
+  fillGapHeading: "How to Fill the Gap",
+  fillGapBody: `Create a planner-centric guide that:
+
+- Compares bottle types (squeezable vs. insulated, nozzle types)
+- Shows branding options with logo placement previews
+- Includes production-to-delivery timelines with DayTech fulfilment partners
+- Explains bulk shipping tips, customs issues, and contingency planning for Singapore marathons`,
+  keywords: [
+    { keyword: "marathon race pack custom water bottles Singapore", intent: "Transactional" },
+  ],
+},
+
+/* ──────── 22. Tech Giveaways for Comic-Con ──────── */
+{
+  slug: "comic-con-tech-giveaways-singapore-outline",
+  date: "July 9, 2025",
+  seoTitle: "SEO Keyword Plan: Custom Tech Giveaways for Comic-Con Vendors in Singapore",
+  seoDescription:
+    "A creative guide to SG Comic-Con tech giveaways — from Bluetooth swag to crowd-puller tools — tailored to cosplay, gaming and anime booth goals.",
+  articleTitle:
+    "Best Tech Giveaways for Comic-Con Exhibitors in Singapore: Budget-Friendly Booth Ideas That Fans Love",
+  gapHeading: "Content Gap",
+  gapBody: `Google shows generic “trade show swag” lists or catalog sites.
+
+Missing:
+- Specific alignment with Singapore Comic Con (SGCC) attendee interests
+- Booth outcome mapping (engagement vs. lead gen)
+- Real local case studies and cost tiers
+
+Even SGCC’s site outlines only high-level booth setup ideas, not targeted giveaway guidance.`,
+  fillGapHeading: "How to Fill the Gap",
+  fillGapBody: `Publish a Comic-Con-specific guide that:
+
+- Suggests tech swag mapped to booth goals (crowd-pullers: mini-fans, scanners; lead capture: Bluetooth tags, QR devices)
+- Offers budget tiers (under $5, $5–$15, premium)
+- Includes past examples from Singapore Comic Con vendors
+- Positions DayTech as a booth-planning partner with sample kits and case studies`,
+  keywords: [
+    { keyword: "custom tech giveaways for Comic-Con vendors Singapore", intent: "Transactional" },
+  ],
+},
+
+ 
 ];
