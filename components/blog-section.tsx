@@ -22,7 +22,7 @@ const COMPANY_NAME = "Daytech";
 
 /* outlines from outline.ts → convert to seed-compatible items          */
 const seedPosts = outlines.map((o, idx) => ({
-  id: idx + 5,   // unique numeric id
+  id: idx + 15,   // unique numeric id
   title: o.articleTitle,
   excerpt: "Blog outline",
   imageUrl: "/outline.png",             // as requested
